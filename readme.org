@@ -1,0 +1,14 @@
+#+TITLE: Assignment 3 GPU
+#+AUTHOR: Jaden Young
+#+EMAIL: jaden.young@ndsu.edu
+
+* GPU Vector Addition
+** Running the program
+   :PROPERTIES:
+   :header-args: :exports code :results none
+   :END:
+   To add two vectors randomly initialized with 10 million elements each using
+   the GPU, making each thread perform /k/ additions, run:
+  #+BEGIN_SRC sh
+  ./vectorAdd k
+  #+END_SRC
